@@ -100,7 +100,7 @@ elseif asymFlag
     confCritNeg = sensCrit-confCrit(1);
 end
 
-% Panel 1 - sensory variable 
+% Panel 1 -Â sensory variable 
 subplot(4,1,1)
 plot(sensVarX, sensVarPdf(:,stimPlotInd), 'm-', 'linewidth', 2)
 hold on, box off
@@ -109,7 +109,7 @@ xlabel('Sensory Variable')
 ylabel('Probability density')
 axis([-5 5 0 1])
     
-% Panel 2 - confidence variable 
+% Panel 2 -Â confidence variable 
 subplot(4,1,2)
 plot(sensVarX, sensVarPdf(:,stimPlotInd), 'm--', 'linewidth', 2)
 hold on, box off
@@ -144,7 +144,7 @@ ylabel('Probability')
 %% Figure 2
 set(figure(2), 'OuterPosition', [700 100 500 1000])
 
-% Panel 1 - Psychometric function
+% Panel 1 -Â Psychometric function
 subplot(4,1,1)
 plot(stimVal, predPF, 'm-', 'linewidth', 2)
 hold on, box off
@@ -154,7 +154,7 @@ axis([-3 3 0 1])
 xlabel('Stimulus value')
 ylabel('Proportion category 2')
 
-% Panel 2 - Confidence function
+% Panel 2 -Â Confidence function
 subplot(4,1,2)
 plot(stimVal, predCF, 'b-', 'linewidth', 2)
 hold on, box off
