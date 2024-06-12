@@ -17,10 +17,10 @@
 % displayed. The subject categorized the stimulus and simultaneously 
 % reported their confidence on a 4-point scale, with a single button press. 
 % The categories were defined by normal distributions on orientation, which
-% differed by task. In Task A, the distributions had different means (±mu_C)
+% differed by task. In Task A, the distributions had different means (Â±mu_C)
 % and the same standard deviation (sigma_C); leftward-tilting stimuli were more 
 % likely to be from category 1. In Task B, the distributions had the same 
-% mean (0°) and different standard deviations (sigma_1, sigma_2); stimuli around 
+% mean (0Â°) and different standard deviations (sigma_1, sigma_2); stimuli around 
 % the horizontal were more likely to be from category 1.
 
 % Please see these links for more information about these data: 
